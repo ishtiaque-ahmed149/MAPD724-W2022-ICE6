@@ -14,7 +14,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,
     //outlets
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var takePictureButton: UIButton!
- 
+    @IBOutlet var pickPictureButton: UIButton!
+    
    @objc var avPlayerViewController: AVPlayerViewController!
     @objc var image: UIImage?
     @objc var movieURL: URL?
